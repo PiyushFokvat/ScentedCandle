@@ -1,0 +1,40 @@
+.Build{
+    width:auto;
+    height:auto;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.Build div{
+    font-weight: bold;
+    width: 40%;
+    text-align: center;
+    color: rgba(219, 74, 74, 0.884);
+}
+
+.Build Button{
+    display: block;
+    font: inherit;
+    text-align: center;
+    margin: 5px 5px;
+    width: 80px;
+    height: 5%;
+    cursor: pointer;
+    background-color: rgb(24, 24, 173);
+    color: white;
+    border-radius: 5px;
+    border: 2px solid rgb(24, 24, 173);
+    padding: 5px;
+    font-weight: bold;
+}
+.Build Button:hover{
+    background-color: white;
+    color: rgb(24, 24, 173);
+}
+
+.Build Button:disabled{
+    background-color: gray;
+    cursor: not-allowed;
+    color: white;
+    border: 2px solid gray;
+}

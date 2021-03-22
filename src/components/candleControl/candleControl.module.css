@@ -1,0 +1,18 @@
+.Candle{
+    width : 35%;
+    height: fit-content;
+    margin: auto;
+    text-align: center; 
+}
+
+.CandleControl{
+    margin-top: 10px;
+    padding: 10px 100px;
+    border: 2px solid #ccc;
+    box-shadow: 0px 2px 2px  #ccc;
+    border-radius: 10px;
+}
+.Candle h1{
+    text-align: left;
+    color: rgb(23, 122, 129);
+}

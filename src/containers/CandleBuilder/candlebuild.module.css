@@ -1,0 +1,32 @@
+.Candle{
+    text-align: center;
+}
+
+.CandleParagraph{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(236, 181, 118);
+    color: rgb(141, 141, 141);
+    font-weight: bold;
+    font-size: x-large;
+}
+.CandleButton{
+    padding: auto;
+    margin: auto;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 2px #ccc;
+    border-radius: 10px;
+    text-decoration: none;
+    list-style: none;
+    font-style: inherit;
+}
+
+.CandleButton:disabled{
+    cursor: not-allowed;
+}
+
+.CandleButton:hover{
+
+    font-weight: bold;
+}
+

@@ -1,0 +1,30 @@
+.Order{
+    font:inherit;
+    width: 60%;
+    margin: auto;
+    min-height: 30px;
+    text-align: center;
+    border: 2px solid #ccc;
+    box-shadow: 0px 2px 2px #ccc;
+    border-radius: 5px;
+    background-color: rgb(122, 122, 179);
+    color: white;
+    font-weight: bold;
+    padding: 15px 5px;
+    font-size: larger;
+}
+
+.Order P{
+    display: inline-flex;
+    flex-flow: column;
+    padding: 0px 5px;
+    margin: 2px 5px;
+    border : 1px solid #ccc;
+    box-shadow: 0px 1px 1px #ccc;
+    border-radius: 2px;
+    text-transform: capitalize;
+}
+
+.Order H1{
+    width : 100%;
+}
